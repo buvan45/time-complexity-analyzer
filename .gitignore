@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js / React / Vite
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/.vite/
+
+# Python cache and test files
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings (optional)
+# .vscode/
+
+# Model files: uncomment only if you don't want to upload models
+# *.pkl
+# *.joblib
